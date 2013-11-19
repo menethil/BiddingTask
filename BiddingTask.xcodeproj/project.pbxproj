@@ -29,7 +29,6 @@
 		DF1AB1021836D6EB00550A6E /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1AB1011836D6EB00550A6E /* RefreshViewController.m */; };
 		DF45C0A618328D4A0088F9D0 /* BiddingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45C0A518328D4A0088F9D0 /* BiddingItem.m */; };
 		DF45C0A918328E360088F9D0 /* BiddingAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45C0A818328E360088F9D0 /* BiddingAttachment.m */; };
-		DF45C0AF1833BF160088F9D0 /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45C0AE1833BF160088F9D0 /* NetworkService.m */; };
 		DFB5CA491836E41D0025560A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB5CA481836E41D0025560A /* Default.png */; };
 		DFBF0B4C183240F30071853E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF0B3A183240F20071853E /* AFHTTPRequestOperation.m */; };
 		DFBF0B4D183240F30071853E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF0B3C183240F20071853E /* AFHTTPRequestOperationManager.m */; };
@@ -88,9 +87,6 @@
 		DF45C0A518328D4A0088F9D0 /* BiddingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiddingItem.m; sourceTree = "<group>"; };
 		DF45C0A718328E360088F9D0 /* BiddingAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiddingAttachment.h; sourceTree = "<group>"; };
 		DF45C0A818328E360088F9D0 /* BiddingAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiddingAttachment.m; sourceTree = "<group>"; };
-		DF45C0AD1833BF160088F9D0 /* NetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
-		DF45C0AE1833BF160088F9D0 /* NetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
-		DFA5B59D1837266C0078C55D /* IReceiveResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IReceiveResult.h; sourceTree = "<group>"; };
 		DFB5CA481836E41D0025560A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DFBF0B39183240F20071853E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		DFBF0B3A183240F20071853E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
@@ -171,7 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				DFB5CA481836E41D0025560A /* Default.png */,
-				DF45C0AC1833BEEC0088F9D0 /* Controller */,
 				DF45C0AB18328F510088F9D0 /* View */,
 				DF45C0AA18328F420088F9D0 /* Entity */,
 				DF0826061832393700237788 /* AppDelegate.h */,
@@ -251,16 +246,6 @@
 				DF0826101832393700237788 /* DetailViewController.m */,
 			);
 			name = View;
-			sourceTree = "<group>";
-		};
-		DF45C0AC1833BEEC0088F9D0 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				DF45C0AD1833BF160088F9D0 /* NetworkService.h */,
-				DF45C0AE1833BF160088F9D0 /* NetworkService.m */,
-				DFA5B59D1837266C0078C55D /* IReceiveResult.h */,
-			);
-			name = Controller;
 			sourceTree = "<group>";
 		};
 		DFBF0B38183240F20071853E /* AFNetworking */ = {
@@ -395,7 +380,6 @@
 				DFBF0B4D183240F30071853E /* AFHTTPRequestOperationManager.m in Sources */,
 				DFBF0B51183240F30071853E /* AFURLConnectionOperation.m in Sources */,
 				DFBF0B4C183240F30071853E /* AFHTTPRequestOperation.m in Sources */,
-				DF45C0AF1833BF160088F9D0 /* NetworkService.m in Sources */,
 				DF0826041832393700237788 /* main.m in Sources */,
 				DFBF0B52183240F30071853E /* AFURLRequestSerialization.m in Sources */,
 				DFBF0B4E183240F30071853E /* AFHTTPSessionManager.m in Sources */,
