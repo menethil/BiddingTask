@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BiddingItem.h"
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) BiddingItem *detailItem;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak,nonatomic) IBOutlet UIWebView *webView;
 @end
