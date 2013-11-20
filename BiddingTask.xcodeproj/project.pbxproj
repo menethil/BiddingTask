@@ -27,8 +27,13 @@
 		DF1AB0FE1836D47600550A6E /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1AB0F91836D47600550A6E /* MJRefreshFooterView.m */; };
 		DF1AB0FF1836D47600550A6E /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1AB0FB1836D47600550A6E /* MJRefreshHeaderView.m */; };
 		DF1AB1021836D6EB00550A6E /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1AB1011836D6EB00550A6E /* RefreshViewController.m */; };
+		DF2C6D4F183BAEC6007BDC25 /* CSNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2C6D4D183BAEC6007BDC25 /* CSNotificationView.m */; };
+		DF2C6D50183BAEC6007BDC25 /* CSNotificationView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2C6D4E183BAEC6007BDC25 /* CSNotificationView.xcassets */; };
 		DF45C0A618328D4A0088F9D0 /* BiddingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45C0A518328D4A0088F9D0 /* BiddingItem.m */; };
 		DF45C0A918328E360088F9D0 /* BiddingAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45C0A818328E360088F9D0 /* BiddingAttachment.m */; };
+		DF5FC8A1183B62EE009F4A5D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF5FC89E183B62EE009F4A5D /* SVProgressHUD.bundle */; };
+		DF5FC8A2183B62EE009F4A5D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5FC8A0183B62EE009F4A5D /* SVProgressHUD.m */; };
+		DF7D9D92183CB875007C29DF /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7D9D91183CB875007C29DF /* Toast+UIView.m */; };
 		DFB5CA491836E41D0025560A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB5CA481836E41D0025560A /* Default.png */; };
 		DFBF0B4C183240F30071853E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF0B3A183240F20071853E /* AFHTTPRequestOperation.m */; };
 		DFBF0B4D183240F30071853E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF0B3C183240F20071853E /* AFHTTPRequestOperationManager.m */; };
@@ -83,10 +88,18 @@
 		DF1AB0FB1836D47600550A6E /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
 		DF1AB1001836D6EB00550A6E /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
 		DF1AB1011836D6EB00550A6E /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
+		DF2C6D4C183BAEC6007BDC25 /* CSNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNotificationView.h; sourceTree = "<group>"; };
+		DF2C6D4D183BAEC6007BDC25 /* CSNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNotificationView.m; sourceTree = "<group>"; };
+		DF2C6D4E183BAEC6007BDC25 /* CSNotificationView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CSNotificationView.xcassets; sourceTree = "<group>"; };
 		DF45C0A418328D4A0088F9D0 /* BiddingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiddingItem.h; sourceTree = "<group>"; };
 		DF45C0A518328D4A0088F9D0 /* BiddingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiddingItem.m; sourceTree = "<group>"; };
 		DF45C0A718328E360088F9D0 /* BiddingAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiddingAttachment.h; sourceTree = "<group>"; };
 		DF45C0A818328E360088F9D0 /* BiddingAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiddingAttachment.m; sourceTree = "<group>"; };
+		DF5FC89E183B62EE009F4A5D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		DF5FC89F183B62EE009F4A5D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		DF5FC8A0183B62EE009F4A5D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		DF7D9D90183CB875007C29DF /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		DF7D9D91183CB875007C29DF /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
 		DFB5CA481836E41D0025560A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DFBF0B39183240F20071853E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		DFBF0B3A183240F20071853E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
@@ -180,6 +193,9 @@
 		DF0825FE1832393700237788 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF7D9D8F183CB875007C29DF /* Toast */,
+				DF2C6D4B183BAEC6007BDC25 /* CSNotificationView */,
+				DF5FC89D183B62EE009F4A5D /* SVProgressHUD */,
 				DF1AB0F31836D47600550A6E /* MJRefresh */,
 				DFBF0B38183240F20071853E /* AFNetworking */,
 				DF0825FF1832393700237788 /* BiddingTask-Info.plist */,
@@ -223,6 +239,16 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
+		DF2C6D4B183BAEC6007BDC25 /* CSNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				DF2C6D4C183BAEC6007BDC25 /* CSNotificationView.h */,
+				DF2C6D4D183BAEC6007BDC25 /* CSNotificationView.m */,
+				DF2C6D4E183BAEC6007BDC25 /* CSNotificationView.xcassets */,
+			);
+			path = CSNotificationView;
+			sourceTree = "<group>";
+		};
 		DF45C0AA18328F420088F9D0 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +272,25 @@
 				DF0826101832393700237788 /* DetailViewController.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		DF5FC89D183B62EE009F4A5D /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DF5FC89E183B62EE009F4A5D /* SVProgressHUD.bundle */,
+				DF5FC89F183B62EE009F4A5D /* SVProgressHUD.h */,
+				DF5FC8A0183B62EE009F4A5D /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		DF7D9D8F183CB875007C29DF /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				DF7D9D90183CB875007C29DF /* Toast+UIView.h */,
+				DF7D9D91183CB875007C29DF /* Toast+UIView.m */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 		DFBF0B38183240F20071853E /* AFNetworking */ = {
@@ -351,10 +396,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF0826131832393700237788 /* Images.xcassets in Resources */,
+				DF5FC8A1183B62EE009F4A5D /* SVProgressHUD.bundle in Resources */,
 				DF0826021832393700237788 /* InfoPlist.strings in Resources */,
 				DF1AB0FC1836D47600550A6E /* MJRefresh.bundle in Resources */,
 				DF08260B1832393700237788 /* Main.storyboard in Resources */,
 				DFB5CA491836E41D0025560A /* Default.png in Resources */,
+				DF2C6D50183BAEC6007BDC25 /* CSNotificationView.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,9 +426,11 @@
 				DF08260E1832393700237788 /* MasterViewController.m in Sources */,
 				DFBF0B4D183240F30071853E /* AFHTTPRequestOperationManager.m in Sources */,
 				DFBF0B51183240F30071853E /* AFURLConnectionOperation.m in Sources */,
+				DF7D9D92183CB875007C29DF /* Toast+UIView.m in Sources */,
 				DFBF0B4C183240F30071853E /* AFHTTPRequestOperation.m in Sources */,
 				DF0826041832393700237788 /* main.m in Sources */,
 				DFBF0B52183240F30071853E /* AFURLRequestSerialization.m in Sources */,
+				DF2C6D4F183BAEC6007BDC25 /* CSNotificationView.m in Sources */,
 				DFBF0B4E183240F30071853E /* AFHTTPSessionManager.m in Sources */,
 				DFBF0B4F183240F30071853E /* AFNetworkReachabilityManager.m in Sources */,
 				DF1AB0FD1836D47600550A6E /* MJRefreshBaseView.m in Sources */,
@@ -390,6 +439,7 @@
 				DFBF0B53183240F30071853E /* AFURLResponseSerialization.m in Sources */,
 				DF1AB1021836D6EB00550A6E /* RefreshViewController.m in Sources */,
 				DFBF0B54183240F30071853E /* AFURLSessionManager.m in Sources */,
+				DF5FC8A2183B62EE009F4A5D /* SVProgressHUD.m in Sources */,
 				DF0826111832393700237788 /* DetailViewController.m in Sources */,
 				DF45C0A918328E360088F9D0 /* BiddingAttachment.m in Sources */,
 			);
@@ -526,6 +576,7 @@
 				INFOPLIST_FILE = "BiddingTask/BiddingTask-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -541,6 +592,7 @@
 				INFOPLIST_FILE = "BiddingTask/BiddingTask-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
