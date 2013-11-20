@@ -1,4 +1,0 @@
-BiddingTask
-===========
-
-BiddingTask
